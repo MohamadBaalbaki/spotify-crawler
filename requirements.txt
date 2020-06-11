@@ -8,7 +8,7 @@ distlib==0.3.0
 distro==1.4.0
 entrypoints==0.3
 filelock==3.0.12
-httplib2==0.14.0
+httplib2==0.18.0
 idna==2.8
 launchpadlib==1.10.13
 lazr.restfulclient==0.14.2
