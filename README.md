@@ -68,6 +68,7 @@ Replace all of the values in the code by the tracked credentials in the previous
 `python spotify-artistcrawler.py > artists.txt`
 
 21-Open the file `spotify-albumcrawler.py` and click **CTRL+F** and write: INSERT
+
 Replace all of the values in the code by the tracked credentials in the previous steps and save the file
 
 22-Run the file once locally using: `python spotify-albumcrawler.py`. You will be prompted to confirm that you agree to Spotify's terms and you will be redirected to a URL once you do so. Copy this URL to the input prompt and click enter. Once the code finishes to run, you will receive an email with all of the current releases of the day for all of your followed Spotify artists. *P.S:* a **.cache** file will be generated to further prevent an authentication input prompt on the server side, and fetch its response from the cached file instead
