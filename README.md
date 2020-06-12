@@ -1,6 +1,6 @@
 # SpotifyCrawler
 
-## Bored of waiting till Friday to check out your favorite artists' new releases on Spotify? If you answered yes, then my Heroku based cloud Spotify crawler & bot should become your best friend. Schedule it to run everyday at a certain time and receive daily updates of the newest Spotify releases of all of your favorite artists. It also retrieves compilations that are not shown on Release Radar!
+## Bored of waiting till Friday to check out your favorite artists' new releases on Spotify? If you answered yes, then my Heroku based cloud Spotify crawler & bot should become your best friend. Schedule it to run everyday at a certain time and receive daily updates of the newest Spotify releases of all of your favorite artists. It also retrieves compilations that are not shown in the Release Radar!
 
 *Full Documentation:*
 
