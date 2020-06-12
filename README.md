@@ -38,6 +38,8 @@ heroku login
 
 cd spotify-crawler
 
+git init
+
 heroku git:remote -a spotify-crawler
 ```
 
