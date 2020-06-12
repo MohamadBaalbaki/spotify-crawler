@@ -48,6 +48,10 @@ heroku git:remote -a spotify-crawler
 16-Run the following commands in succession in your terminal, all while replacing "xxxx_api_key_xxxx" by the API key you kept track of in step **4**
 
 ```
+heroku config:get SENDGRID_USERNAME appXYZ@heroku.com
+
+heroku config:get SENDGRID_PASSWORD password
+
 heroku config:set SENDGRID_API_KEY=xxxx_api_key_xxxx
 
 heroku config
