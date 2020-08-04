@@ -21,7 +21,7 @@ This account will be used to authenticate the Email API
 
 8-Create an Account on [Heroku](https://www.heroku.com/)
 
-9-Create an App on Heroku and name it: spotify-crawler
+9-Create an App on Heroku and name it: spotify-crawler-ANYTHING
 
 10-Fork my [repository](https://github.com/MohamadBaalbaki/spotify-crawler) on GitHub
 
@@ -36,11 +36,11 @@ This account will be used to authenticate the Email API
 ```
 heroku login
 
-cd spotify-crawler
+cd spotify-crawler-ANYTHING
 
 git init
 
-heroku git:remote -a spotify-crawler
+heroku git:remote -a spotify-crawler-ANYTHING
 ```
 
 15-Install [Spotipy](https://spotipy.readthedocs.io/en/2.12.0/), [DateTime](https://docs.python.org/2/library/datetime.html) and [SendGrid](https://pypi.org/project/sendgrid/) via pip
@@ -75,7 +75,7 @@ Replace all of the values in the code by the tracked credentials in the previous
 
 23-Scale Web Dynos to 0 using the following command: `heroku ps:scale web=0` since the scheduler on Heroku already utilizes a Dyno. If you don't scale Web Dynos to 0, you risk having your code randomly running every now and a then, thus receiving dozens of emails per day
 
-23-Run the following commands in succession in your terminal:
+24-Run the following commands in succession in your terminal:
 ```
 git add .
 
@@ -84,7 +84,7 @@ git commit -m "Initial commit"
 git push heroku master
 ```
 
-24-Once the code finishes running, install the [Heroku Scheduler](https://dashboard.heroku.com/apps/spotify-crawler) add-on in your app and configure it to run `python spotify-albumcrawler.py` anytime you want
+25-Once the code finishes running, install the [Heroku Scheduler](https://dashboard.heroku.com/apps/spotify-crawler-ANYTHING) add-on in your app and configure it to run `python spotify-albumcrawler.py` anytime you want
 
 *#DONE*
 
